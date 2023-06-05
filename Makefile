@@ -1,7 +1,7 @@
 all: build test
 
 init:
-	go get -u github.com/AlekSi/gocoverutil@latest
+	go install github.com/AlekSi/gocoverutil@latest
 
 build:
 	go install -v
