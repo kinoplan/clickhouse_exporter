@@ -6,7 +6,7 @@ COPY . /go/src/github.com/ClickHouse/clickhouse_exporter
 
 WORKDIR /go/src/github.com/ClickHouse/clickhouse_exporter
 
-RUN make init && make all
+RUN make init && make
 
 
 FROM alpine:latest
